@@ -1,0 +1,85 @@
+# Explore DB
+
+select * from basket;
+select * from ordering;
+select * from payment;
+select * from stock;
+select * from unitstock;
+select * from pos;
+select * from address;
+select * from customer;
+select * from employee;
+
+# Initialize a basket
+
+insert into basket (id, product, size, serving, price, quantity)
+values (529, 2, "small", 1, (select entry_price from product where id = 2), 2);
+insert into basket (id, product, size, serving, price, quantity)
+values (529, 3, "medium", 1.5, ((select entry_price from product where id = 3) + 3), 1);
+insert into basket (id, product, size, serving, price, quantity)
+values (529, 4, "large", 2, ((select entry_price from product where id = 4) + 6), 1);
+
+# Register an order
+
+insert into ordering (basket, customer, pos, reception_mode, reception_point, status)
+values (529, 29, 2, "à emporter", 2, "enregistrée");
+
+select id from ordering where basket = 529;
+
+# Register a payment ticket
+
+insert into payment (id, mode, amount, status)
+values (25, "à réception", (select sum(price * quantity) from basket where id = (select basket from ordering where id = 25)), "en attente");
+
+# Update stock
+
+update Stock s, Basket b
+set s.pâte = s.pâte-(b.serving*b.quantity),
+s.sauce_tomates = s.sauce_tomates-(b.serving*b.quantity),
+s.mozzarella = s.mozzarella-(b.serving*b.quantity),
+s.olives = s.olives-(b.serving*b.quantity),
+s.jambon = s.jambon-(b.serving*b.quantity),
+s.champignons = s.champignons-(b.serving*b.quantity)
+where b.id = 529 and b.product = 2 and s.pos = 2;
+
+update UnitStock u
+join Stock s on u.pos = s.pos
+set u.remaining_units = (select least(s.jambon, s.champignons)
+	where s.pâte >= s.jambon and s.pâte >= s.champignons)
+where u.product = 2 and u.pos = 2;
+
+update Stock s, Basket b
+set s.pâte = s.pâte-(b.serving*b.quantity),
+s.sauce_tomates = s.sauce_tomates-(b.serving*b.quantity),
+s.mozzarella = s.mozzarella-(b.serving*b.quantity),
+s.olives = s.olives-(b.serving*b.quantity),
+s.câpres = s.câpres-(b.serving*b.quantity),
+s.anchois = s.anchois-(b.serving*b.quantity)
+where b.id = 529 and b.product = 3 and s.pos = 2;
+
+update UnitStock u
+join Stock s ON u.pos = s.pos
+set u.remaining_units = (select least(s.câpres, s.anchois)
+	where s.pâte >= s.câpres and s.pâte >= s.anchois)
+where u.product = 3 and u.pos = 2;
+
+update Stock s, Basket b
+set s.pâte = s.pâte-(b.serving*b.quantity),
+s.sauce_tomates = s.sauce_tomates-(b.serving*b.quantity),
+s.mozzarella = s.mozzarella-(b.serving*b.quantity),
+s.olives = s.olives-(b.serving*b.quantity),
+s.jambon = s.jambon-(b.serving*b.quantity),
+s.champignons = s.champignons-(b.serving*b.quantity),
+s.artichauds = s.artichauds-(b.serving*b.quantity)
+where b.id = 529 and b.product = 4 and s.pos = 2;
+
+update UnitStock u
+join Stock s on u.pos = s.pos
+set u.remaining_units = (select least(s.jambon, s.champignons, s.artichauds)
+	where s.pâte >= s.jambon and s.pâte >= s.champignons and s.pâte >= s.artichauds)
+where u.product = 4 and u.pos = 2;
+
+UPDATE UnitStock u
+JOIN Stock s ON u.pos = s.pos
+SET u.remaining_units = s.pâte
+WHERE u.product = 1 and u.pos = 2;

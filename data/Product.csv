@@ -1,0 +1,6 @@
+id,name,description,recipe,image_path,entry_price
+1,Margherita,La classique,"sauce tomates, mozzarella, olives",products/images/margherita.png,7
+2,Reine,L'intemporelle,"sauce tomates, mozzarella, olives, jambon, champignons",products/images/queen.png,9
+3,Napolitaine,L'ambitieuse,"sauce tomates,mozzarella, olives, anchois, câpres",products/images/napolitana.png,10
+4,Quatre Saisons,La gourmande,"sauce tomates, mozzarella, olives, jambon, champignons, artichaud",products/images/four-seasons.png,11
+5,Végétarienne,La juteuse,"sauce tomates, mozzarella, olives, champignons, artichaud, aubergine, courgette",products/images/veggy.png,12

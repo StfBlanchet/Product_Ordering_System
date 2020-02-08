@@ -1,0 +1,106 @@
+id,street,street_number,city,complements,postal_code
+1,rue U,1,Paris,,75001
+2,rue V,2,Paris,,75014
+3,rue W,3,Paris,,75012
+4,rue X,4,Paris,,75010
+5,rue Y,5,Paris,,75016
+6,rue F,6,Paris,Aenean eget metus. In nec,75006
+7,rue G,7,Paris,"a feugiat tellus lorem eu metus. In lorem. Donec elementum, lorem ut aliquam",75007
+8,rue H,8,Paris,pharetra. Nam ac nulla. In tincidunt congue,75001
+9,rue I,9,Paris,Duis gravida. Praesent eu nulla at sem molestie sodales.,75002
+10,rue J,10,Paris,feugiat placerat velit. Quisque varius. Nam porttitor scelerisque neque. Nullam nisl.,75003
+11,rue K,11,Paris,Praesent eu nulla at sem molestie,75004
+12,rue L,12,Paris,vulputate velit eu sem. Pellentesque ut ipsum,75005
+13,rue M,13,Paris,eu nibh vulputate mauris sagittis placerat. Cras,75006
+14,rue N,14,Paris,ornare egestas ligula. Nullam feugiat placerat,75007
+15,rue O,15,Paris,lacus. Mauris non dui nec urna suscipit nonummy. Fusce fermentum fermentum arcu. Vestibulum,75001
+16,rue P,16,Paris,"lorem, luctus ut, pellentesque eget, dictum placerat, augue. Sed",75002
+17,rue Q,17,Paris,"amet, consectetuer adipiscing elit. Aliquam auctor, velit eget laoreet posuere, enim nisl elementum purus,",75003
+18,rue R,18,Paris,amet ante. Vivamus non lorem vitae,75004
+19,rue S,19,Paris,Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque dui.,75005
+20,rue T,20,Paris,eget mollis lectus pede et risus. Quisque libero,75006
+21,rue A,21,Paris,"sem ut cursus luctus, ipsum leo elementum sem, vitae aliquam eros turpis non enim.",75013
+22,rue B,22,Paris,"facilisis vitae, orci. Phasellus dapibus quam quis diam. Pellentesque habitant morbi tristique senectus et",75013
+23,rue C,23,Paris,"eu odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus. Nullam velit dui, semper",75013
+24,rue D,24,Paris,"felis orci, adipiscing non, luctus sit amet, faucibus ut, nulla. Cras eu tellus eu augue",75013
+25,rue E,25,Paris,scelerisque dui. Suspendisse ac metus vitae velit egestas lacinia. Sed,75013
+26,rue F,26,Paris,lorem vitae odio sagittis semper. Nam tempor diam dictum sapien. Aenean massa. Integer vitae,75013
+27,rue G,27,Paris,aliquet. Phasellus fermentum convallis ligula.,75014
+28,rue H,28,Paris,nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et,75014
+29,rue I,29,Paris,Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper tellus id nunc,75014
+30,rue J,30,Paris,"sagittis augue, eu tempor erat neque non quam. Pellentesque habitant",75014
+31,rue K,31,Paris,gravida molestie arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras,75014
+32,rue L,32,Paris,in felis. Nulla tempor augue ac ipsum. Phasellus vitae mauris,75014
+33,rue M,33,Paris,erat volutpat. Nulla dignissim. Maecenas ornare,75015
+34,rue N,34,Paris,dignissim magna a tortor. Nunc commodo auctor velit. Aliquam nisl. Nulla eu neque pellentesque,75015
+35,rue O,35,Paris,Donec tincidunt. Donec vitae erat vel pede blandit congue. In scelerisque scelerisque,75015
+36,rue P,36,Paris,"urna et arcu imperdiet ullamcorper. Duis at lacus. Quisque purus sapien, gravida non, sollicitudin a,",75015
+37,rue Q,37,Paris,consectetuer euismod est arcu ac orci. Ut semper pretium neque. Morbi quis urna. Nunc quis,75015
+38,rue R,38,Paris,nonummy. Fusce fermentum fermentum arcu. Vestibulum ante ipsum primis in faucibus orci luctus et,75015
+39,rue S,39,Paris,id risus quis diam luctus lobortis. Class aptent taciti sociosqu ad,75015
+40,rue T,40,Paris,Nam ac nulla. In tincidunt congue turpis. In condimentum.,75015
+41,rue A,41,Paris,"egestas a, dui. Cras pellentesque. Sed dictum.",75011
+42,rue B,42,Paris,adipiscing lacus. Ut nec urna et arcu imperdiet ullamcorper. Duis,75011
+43,rue C,43,Paris,ridiculus mus. Proin vel nisl. Quisque,75011
+44,rue D,44,Paris,Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum,75011
+45,rue E,45,Paris,metus. In nec orci. Donec nibh. Quisque nonummy ipsum,75011
+46,rue F,46,Paris,ipsum. Suspendisse sagittis. Nullam vitae diam. Proin dolor. Nulla semper,75011
+47,rue G,47,Paris,"adipiscing lobortis risus. In mi pede, nonummy ut, molestie in,",75012
+48,rue H,48,Paris,ridiculus mus. Aenean eget magna. Suspendisse tristique neque venenatis lacus. Etiam bibendum fermentum metus.,75012
+49,rue I,49,Paris,"mi pede, nonummy ut, molestie in, tempus eu, ligula. Aenean euismod",75012
+50,rue J,50,Paris,"Duis risus odio, auctor vitae, aliquet nec, imperdiet nec,",75012
+51,rue K,51,Paris,"Aliquam adipiscing lobortis risus. In mi pede, nonummy",75012
+52,rue L,52,Paris,"velit egestas lacinia. Sed congue,",75012
+53,rue M,53,Paris,ornare. Fusce mollis. Duis sit,75020
+54,rue N,54,Paris,"ipsum dolor sit amet, consectetuer",75020
+55,rue O,55,Paris,"montes, nascetur ridiculus mus. Donec dignissim magna a tortor. Nunc commodo auctor velit. Aliquam",75020
+56,rue P,56,Paris,vitae erat vel pede blandit congue. In scelerisque scelerisque,75020
+57,rue Q,57,Paris,Nullam lobortis quam a felis ullamcorper,75020
+58,rue R,58,Paris,scelerisque scelerisque dui. Suspendisse ac,75020
+59,rue S,59,Paris,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam auctor, velit eget",75020
+60,rue T,60,Paris,"a, facilisis non, bibendum sed, est. Nunc",75020
+61,rue A,61,Paris,faucibus orci luctus et ultrices posuere cubilia Curae; Phasellus ornare. Fusce mollis. Duis sit amet,75010
+62,rue B,62,Paris,"lacus, varius et, euismod et, commodo",75010
+63,rue C,63,Paris,"nunc risus varius orci, in consequat enim diam vel arcu. Curabitur ut odio vel est",75010
+64,rue D,64,Paris,inceptos hymenaeos. Mauris ut quam vel sapien imperdiet ornare. In faucibus. Morbi,75010
+65,rue E,65,Paris,Quisque fringilla euismod enim. Etiam gravida molestie arcu. Sed,75010
+66,rue F,66,Paris,"tempus scelerisque, lorem ipsum sodales purus, in",75009
+67,rue G,67,Paris,"dapibus id, blandit at, nisi. Cum",75009
+68,rue H,68,Paris,"velit in aliquet lobortis, nisi nibh lacinia orci, consectetuer",75009
+69,rue I,69,Paris,"odio, auctor vitae, aliquet nec, imperdiet nec, leo. Morbi neque",75009
+70,rue J,70,Paris,"molestie tellus. Aenean egestas hendrerit neque. In ornare sagittis felis. Donec tempor,",75009
+71,rue K,71,Paris,arcu ac orci. Ut semper pretium neque. Morbi quis,75018
+72,rue L,72,Paris,Etiam gravida molestie arcu. Sed eu nibh vulputate,75018
+73,rue M,73,Paris,vehicula. Pellentesque tincidunt tempus risus. Donec egestas. Duis ac arcu. Nunc mauris.,75018
+74,rue N,74,Paris,"convallis, ante lectus convallis est, vitae sodales nisi",75018
+75,rue O,75,Paris,"congue, elit sed consequat auctor, nunc nulla vulputate dui, nec tempus mauris erat eget",75018
+76,rue P,76,Paris,at augue id ante dictum cursus.,75019
+77,rue Q,77,Paris,iaculis odio. Nam interdum enim non nisi. Aenean eget metus. In,75019
+78,rue R,78,Paris,nunc. In at pede. Cras vulputate velit eu sem. Pellentesque,75019
+79,rue S,79,Paris,"cursus luctus, ipsum leo elementum sem, vitae aliquam",75019
+80,rue T,80,Paris,"gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo.",75019
+81,rue A,81,Paris,Morbi metus. Vivamus euismod urna. Nullam lobortis quam,75008
+82,rue B,82,Paris,"penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque",75008
+83,rue C,83,Paris,"sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",75008
+84,rue D,84,Paris,luctus. Curabitur egestas nunc sed libero.,75008
+85,rue E,85,Paris,justo. Praesent luctus. Curabitur egestas nunc sed libero. Proin sed turpis nec mauris,75008
+86,rue F,86,Paris,"scelerisque neque sed sem egestas blandit. Nam nulla magna,",75008
+87,rue G,87,Paris,vitae dolor. Donec fringilla. Donec feugiat,75016
+88,rue H,88,Paris,"Etiam laoreet, libero et tristique pellentesque, tellus sem mollis dui, in sodales elit erat vitae",75016
+89,rue I,89,Paris,mus. Proin vel arcu eu odio tristique pharetra.,75016
+90,rue J,90,Paris,"sed orci lobortis augue scelerisque mollis. Phasellus libero mauris, aliquam eu, accumsan sed,",75016
+91,rue K,91,Paris,mus. Proin vel arcu eu odio tristique pharetra. Quisque ac libero nec,75016
+92,rue L,92,Paris,"sem semper erat, in consectetuer ipsum",75016
+93,rue M,93,Paris,"vestibulum lorem, sit amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis",75017
+94,rue N,94,Paris,"mollis vitae, posuere at, velit. Cras lorem lorem, luctus ut, pellentesque",75017
+95,rue O,95,Paris,"In ornare sagittis felis. Donec tempor,",75017
+96,rue P,96,Paris,"eget tincidunt dui augue eu tellus. Phasellus elit pede, malesuada vel,",75017
+97,rue Q,97,Paris,amet ultricies sem magna nec quam. Curabitur vel lectus. Cum sociis,75017
+98,rue R,98,Paris,arcu. Sed eu nibh vulputate mauris sagittis placerat. Cras dictum ultricies ligula. Nullam enim. Sed,75017
+99,rue S,99,Paris,"elit elit fermentum risus, at fringilla purus",75017
+100,rue T,100,Paris,"sed pede nec ante blandit viverra. Donec tempus, lorem fringilla ornare placerat, orci",75017
+101,rue P,101,Paris,"gravida mauris ut mi. Duis risus odio, auctor vitae, aliquet nec, imperdiet nec, leo.",75017
+102,rue Q,102,Paris,Morbi metus. Vivamus euismod urna. Nullam lobortis quam,75017
+103,rue R,103,Paris,"penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eget magna. Suspendisse tristique neque",75017
+104,rue S,104,Paris,"sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos.",75017
+105,rue T,105,Paris,luctus. Curabitur egestas nunc sed libero.,75017
